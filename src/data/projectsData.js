@@ -1,8 +1,17 @@
+// src/data/projectsData.js
+import bellaImg from '../assets/bella.webp';
+import blogImg from '../assets/blog.webp';
+import libraryImg from '../assets/library.webp';
+import movImg from '../assets/mov.webp';
+import bezelImg from '../assets/bezel.webp';
+import bakeryImg from '../assets/bakery.webp';
+import audioPlaylistImg from '../assets/AudioPlaylist.webp';
+
 export const Projects = [
   {
     id: 1,
     title: "Bella Furniture",
-    image: "src/assets/bella.webp",
+    image: bellaImg,
     link: "https://bella-priv.vercel.app/",
     github: "https://github.com/Asmaa-1999/Bella-Furniture",
     description:
@@ -12,7 +21,7 @@ export const Projects = [
   {
     id: 2,
     title: "Simple Blog",
-    image: "src/assets/blog.webp",
+    image: blogImg,
     link: "https://simple-blog-florafacts.vercel.app",
     github: "https://github.com/Asmaa-1999/simple-blog",
     description:
@@ -22,7 +31,7 @@ export const Projects = [
   {
     id: 3,
     title: "Library",
-    image: "src/assets/library.webp",
+    image: libraryImg,
     link: "https://book-library-gold.vercel.app/",
     github: "https://github.com/Asmaa-1999/Book-Library",
     description:
@@ -32,7 +41,7 @@ export const Projects = [
   {
     id: 4,
     title: "Movies Website",
-    image: "src/assets/mov.webp",
+    image: movImg,
     link: "https://movies-website-liart.vercel.app/",
     github: "https://github.com/Asmaa-1999/Movies-Website",
     description:
@@ -42,7 +51,7 @@ export const Projects = [
   {
     id: 5,
     title: "Bezel Landing Page",
-    image: "src/assets/bezel.webp",
+    image: bezelImg,
     link: "https://bezel-bootstrap.vercel.app/",
     github: "https://github.com/Asmaa-1999/bezel-bootstrap",
     description:
@@ -52,7 +61,7 @@ export const Projects = [
   {
     id: 6,
     title: "Bakery Template",
-    image: "src/assets/bakery.webp",
+    image: bakeryImg,
     link: "https://bakery-chi-ten.vercel.app/",
     github: "https://github.com/Asmaa-1999/Bakery",
     description:
@@ -62,7 +71,7 @@ export const Projects = [
   {
     id: 7,
     title: "Simple Audio Playlist",
-    image: "src/assets/AudioPlaylist.webp",
+    image: audioPlaylistImg,
     link: "https://simple-audio-playlist.vercel.app/",
     github: "https://github.com/Asmaa-1999/simple-audio-playlist",
     description:
