@@ -25,7 +25,7 @@ A fully responsive portfolio website built with React, showcasing my projects, s
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/username/portfolio.git
+   git clone git@github.com:Asmaa-1999/my-portofolio.git
 2. npm i
 3. npm run dev
 
