@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 import AppRouter from './routes/AppRouter';
-import Sidebar from "./layout.jsx/Sidebar/Sidebar";
+import Sidebar from "./layout/Sidebar/Sidebar";
 
 function App() {
   return (
