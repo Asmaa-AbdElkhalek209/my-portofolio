@@ -85,4 +85,4 @@ function ModalCard({ selectedProject }) {
   );
 }
 
-export default ModalCard;
+export default React.memo(ModalCard);

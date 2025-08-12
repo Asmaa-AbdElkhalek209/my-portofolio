@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       colors:{
-        mainColor: "#72b626",
+        mainColor:'var(--mainColor)',
         darkGray: "rgb(102, 102, 102)",
         lightGray: "rgb(239, 240, 240)",
         MediumGray: "#666",

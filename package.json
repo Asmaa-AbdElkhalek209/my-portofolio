@@ -13,7 +13,6 @@
     "@emailjs/browser": "^4.4.1",
     "daisyui": "^5.0.27",
     "formik": "^2.4.6",
-    "framer-motion": "^12.23.12",
     "lucide-react": "^0.503.0",
     "react": "^19.0.0",
     "react-circular-progressbar": "^2.2.0",
