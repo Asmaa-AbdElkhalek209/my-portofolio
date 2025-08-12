@@ -16,7 +16,7 @@ const socialLinks = [
   {
     name: "Github",
     icon: FaGithub,
-    url: "https://github.com/Asmaa-1999",
+    url: "https://github.com/Asmaa-AbdElkhalek209",
   },
   {
     name: "Linkedin",

@@ -74,7 +74,7 @@ function PersonalInfos() {
 
             <div className="flex justify-start mt-10">
               <a
-                href="Asmaa-Mohamed-AbdElkhalek-cv2025 (1).pdf"
+                href="Asmaa-Mohamed-AbdElkhalek-cv2025.pdf"
                 download
                 className="group flex items-center gap-3 bg-mainColor text-white px-7 py-4 rounded-full shadow-lg text-sm font-open font-[600]
                   hover:bg-white hover:text-mainColor border-2 border-mainColor transition duration-300"
