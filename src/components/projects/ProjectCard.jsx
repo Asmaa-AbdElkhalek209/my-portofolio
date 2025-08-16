@@ -18,7 +18,7 @@ function ProjectCard({ title, image, onClick }) {
       style={{ backgroundImage: `url(${image})` }}
     >
       <div
-        className="absolute inset-0 bg-mainColor bg-opacity-80 flex items-center justify-center text-white 
+        className="absolute inset-0 bg-mainColor opacity-90 flex items-center justify-center text-white 
           transition-all duration-500 ease-out translate-y-[-100%] group-hover:translate-y-0"
       >
         <h3 className="text-lg font-bold text-center px-2">{title}</h3>

@@ -47,6 +47,7 @@ function ProjectsSection() {
           currentPage={currentPage}
         />
       </div>
+      
     </>
   );
 }

@@ -8,7 +8,7 @@ function Button({ title, icon, handelClick ,type}) {
       type={type}
       onClick={handelClick}
       className="group relative flex items-center gap-3 bg-mainColor uppercase
-       text-white px-8 py-3 rounded-full shadow-lg
+       text-white px-7 py-3 rounded-full shadow-lg
         hover:bg-white hover:text-mainColor border-2 border-mainColor transition duration-300"
     >
       <span className="font-open text-[15px] font-[600] tracking-wide ">{title}</span>

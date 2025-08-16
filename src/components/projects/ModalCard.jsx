@@ -6,7 +6,7 @@ function ModalCard({ selectedProject }) {
     <>
       {selectedProject && (
         <dialog id="my_modal_2" className="modal">
-          <div className="modal-box max-w-2xl p-6">
+          <div className="modal-box max-w-2xl p-6 relative">
             {/* Title */}
             <h3 className="font-bold text-3xl uppercase text-mainColor text-center mb-6">
               {selectedProject.title}
@@ -31,20 +31,21 @@ function ModalCard({ selectedProject }) {
                   Technologies:
                 </span>
                 {selectedProject.technologies.map((tec, index) => (
-                  <span key={index} className="ml-1">{tec}</span>
+                  <span key={index} className="ml-1">{tec} </span>
                 ))}
               </p>
             </div>
 
             {/* Links */}
-            <div className="grid grid-cols-2 gap-4 mb-6 px-5">
+            {/* <div className="grid grid-cols-2 gap-4 mb-6 px-5"> */}
+            <div className="flex gap-4 mb-6 px-5">
               <a
                 href={selectedProject.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center bg-gray-100 py-2 rounded hover:bg-gray-200"
+                className="flex-1 text-center bg-gray-100 py-2 rounded hover:bg-gray-200"
               >
-                <span className="flex items-center justify-center gap-2 text-gray-700 font-medium">
+                <span className="flex items-center justify-center gap-2 text-gray-700 font-medium text-sm">
                   <Link /> Source Code
                 </span>
               </a>
@@ -52,13 +53,14 @@ function ModalCard({ selectedProject }) {
                 href={selectedProject.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center bg-gray-100 py-2 rounded hover:bg-gray-200"
+                className="flex-1 text-center bg-gray-100 py-2 rounded hover:bg-gray-200"
               >
-                <span className="flex items-center justify-center gap-2 text-gray-700 font-medium">
+                <span className="flex items-center justify-center gap-2 text-gray-700 font-medium text-sm">
                   <SquareArrowOutUpRight /> Live Demo
                 </span>
               </a>
             </div>
+
 
             {/* Image */}
             <div className="w-full cursor-pointer">
@@ -70,15 +72,18 @@ function ModalCard({ selectedProject }) {
                 />
               </a>
             </div>
-          </div>
 
-          <form method="dialog" className="relative md:static">
-            <button
-              className="text-darkGray md:text-lightGray font-bold md:font-extrabold text-xl md:text-3xl lg:text-4xl p-3 cursor-pointer btn-lg fixed right-[3rem] top-[4rem] sm:right-[4.5rem] sm:top-[3.5rem] md:right-2 md:top-2"
-            >
-              ✕
-            </button>
-          </form>
+            {/* Close button */}
+            <form method="dialog">
+              <button
+                className="absolute right-4 top-4 text-darkGray opacity-75
+                           font-bold md:font-extrabold text-xl lg:text-2xl 
+                           p-3 cursor-pointer"
+              >
+                ✕
+              </button>
+            </form>
+          </div>
         </dialog>
       )}
     </>
