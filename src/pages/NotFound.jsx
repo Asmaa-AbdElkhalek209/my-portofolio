@@ -1,18 +1,20 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import {Helmet} from "react-helmet-async";
+
 function NotFound() {
   const navigate = useNavigate();
 
   return (
-    <>
-      <Helmet>
-        <title>404 - Page Not Found | My Portfolio</title>
-        <meta name="description" content="Oops! The page you are looking for does not exist. Go back to the home page." />
-        <meta name="robots" content="noindex, follow" />
-      </Helmet>
+    <article>
+      {/* SEO Tags مباشرة في JSX */}
+      <title>404 - Page Not Found | My Portfolio</title>
+      <meta
+        name="description"
+        content="Oops! The page you are looking for does not exist. Go back to the home page."
+      />
+      <meta name="robots" content="noindex, follow" />
 
-      <div className="min-h-screen flex flex-col justify-center items-center text-center bg-gray-100 p-5 ">
+      <div className="min-h-screen flex flex-col justify-center items-center text-center bg-gray-100 p-5">
         <h1 className="text-7xl lg:text-9xl mb-2 text-mainColor font-open font-semibold">404</h1>
         <p className="text-xl mb-6 font-open text-darkGray">
           Oops! The page you're looking for doesn't exist.
@@ -21,13 +23,13 @@ function NotFound() {
           onClick={() => navigate('/')}
           className="px-5 py-3 bg-mainColor text-white text-base rounded-md cursor-pointer hover:bg-white border
            hover:text-mainColor hover:border-mainColor
-           transition-colors duration-300">
+           transition-colors duration-300"
+        >
           Go to Home
         </button>
       </div>
-    </>
+    </article>
   );
 }
 
 export default React.memo(NotFound);
-
