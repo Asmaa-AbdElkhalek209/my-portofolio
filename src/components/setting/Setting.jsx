@@ -37,6 +37,7 @@ const Setting = () => {
               Color Switcher
             </h2>
             <button
+             aria-label="Close color switcher"
               onClick={() => setIsOpen(false)}
               className=" text-darkGray rounded-full w-8 h-8 flex items-center justify-center font-open font-[700] text-xl" >
               ✕
@@ -51,6 +52,7 @@ const Setting = () => {
         </>
       ) : (
         <button
+          aria-label="Open color switcher"
           onClick={() => setIsOpen(true)}
           className="bg-white w-12 h-12 flex items-center justify-center hover:opacity-75 animate-spin transition"
         >

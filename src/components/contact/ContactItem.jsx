@@ -1,16 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const ContactItem = React.memo(({ icon: Icon, title, link, linkText }) => {
+const ContactItem = React.memo(({ icon: Icon, title, link, linkText, ariaLabel }) => {
   return (
     <div className="flex gap-3">
       <div className="min-w-12 h-12 bg-mainColor rounded-full flex items-center justify-center">
-        <Icon className="w-6 h-5 text-white" />
+        <Icon className="w-6 h-5 text-white" aria-hidden="true" />
       </div>
+
       <div>
         <h4 className="uppercase text-MediumGray opacity-75">{title}</h4>
         <a
           href={link}
+          aria-label={ariaLabel || linkText} 
           className="font-open font-semibold text-MediumGray hover:underline text-[15px]"
         >
           {linkText}

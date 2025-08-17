@@ -14,7 +14,7 @@ export default function SidebarMobile({navLinks, setMenuOpen}) {
             border-b border-MediumGray border-opacity-30 last:border-b-0 py-3
             ${location.pathname === to ? 'text-mainColor' : ''}`}
         >
-          <Icon size={24} />
+          <Icon size={24} aria-hidden="true" />
           <Link to={to} onClick={() => setMenuOpen(false)}>
             {label}
           </Link>

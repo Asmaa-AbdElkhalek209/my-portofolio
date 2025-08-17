@@ -5,7 +5,7 @@ import { EducationItem } from './EducationItem';
 
 function Experience() {
   return (
-    <section className="mb-20 py-2 px-10 lg:px-11 xl:px-40 font-open">
+    <section className="py-2 px-10 lg:px-11 xl:px-40 font-open">
       <h2 className="text-MediumGray font-Poppins font-[600] text-xl md:text-2xl lg:text-3xl mb-10 uppercase md:text-center">
         Experience & Education
       </h2>

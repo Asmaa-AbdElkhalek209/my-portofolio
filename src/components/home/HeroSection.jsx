@@ -75,6 +75,7 @@ function HeroSection() {
             icon={ArrowLeft}
             handelClick={handleClick}
             type="button"
+            aria-label="Go to About section"
           />
         </div>
       </div>

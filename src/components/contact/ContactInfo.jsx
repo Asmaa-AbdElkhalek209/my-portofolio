@@ -9,10 +9,7 @@ function ContactInfo() {
       <h2 className="text-MediumGray font-bold text-3xl font-open uppercase">
         Don't be shy!
       </h2>
-      <p
-        className="text-sm font-open text-left opacity-75 p-2"
-        style={{ lineHeight: 2 }}
-      >
+      <p className="text-sm font-open text-left opacity-75 p-2 leading-loose">
         I'm always excited to collaborate on fresh ideas, cool projects, or
         anything that brings creativity to life. Feel free to reach out anytime!
       </p>
@@ -22,6 +19,7 @@ function ContactInfo() {
         title="MAIL ME"
         link="mailto:asmaa0abdelkhalek@gmail.com"
         linkText="asmaa0abdelkhalek@gmail.com"
+        ariaLabel="Send me an email at asmaa0abdelkhalek@gmail.com"
       />
 
       <ContactItem
@@ -29,6 +27,7 @@ function ContactInfo() {
         title="CALL ME"
         link="tel:+201095276187"
         linkText="+20 109 527 6187"
+        ariaLabel="Call me at +20 109 527 6187"
       />
 
       <SocialIcons />

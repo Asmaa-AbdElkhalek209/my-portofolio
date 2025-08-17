@@ -13,6 +13,7 @@ export default function SidebarDesktop({ navLinks }) {
             className="group-hover:bg-mainColor rounded-full overflow-hidden
               text-center group-hover:pl-2 flex justify-center items-center fixed right-4"
           >
+            <span className="sr-only">{label}</span>
             <span
               className="text-white uppercase text-sm font-[500] group-hover:p-1 max-w-0 overflow-hidden
                 group-hover:max-w-[200px] transition-all duration-300 whitespace-nowrap"

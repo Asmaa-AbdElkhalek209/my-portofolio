@@ -96,7 +96,11 @@ function ContactForm() {
         </div>
 
         <div>
+          <label htmlFor='message' className="sr-only">
+          Your Message
+          </label>
           <textarea
+            id='message'
             name="message"
             rows="6"
             placeholder="Your Message"

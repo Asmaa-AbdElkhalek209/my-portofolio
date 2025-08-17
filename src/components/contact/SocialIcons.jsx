@@ -40,10 +40,9 @@ const SocialIcons = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Visit my ${name} profile`}
+          className="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
         >
-          <button className="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors">
-            <Icon className="w-5 h-5 text-gray-600" />
-          </button>
+          <Icon className="w-5 h-5 text-gray-600" aria-hidden="true" />
         </a>
       ))}
     </div>

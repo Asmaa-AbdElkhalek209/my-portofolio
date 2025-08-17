@@ -54,9 +54,9 @@ function PersonalInfos() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 p-1">
 
-            <ul className="space-y-2 p-1">
+            <ul role='list' className="space-y-2 p-1">
               {PersonalInfos1.map((info) => (
-                <li key={info.title} className='mb-5 font-open'>
+                <li role='listitem' key={info.title} className='mb-5 font-open'>
                   <span className="text-MediumGray opacity-[0.8]">{info.title}: </span>
                   <span className="text-gray-800">{info.description}</span>
                 </li>
@@ -74,13 +74,14 @@ function PersonalInfos() {
 
             <div className="flex justify-start mt-10">
               <a
+                aria-label="Download CV"
                 href="Asmaa-Mohamed-AbdElkhalek-cv2025.pdf"
                 download
                 className="group flex items-center gap-3 bg-mainColor text-white px-7 py-4 rounded-full shadow-lg text-sm font-open font-[600]
                   hover:bg-white hover:text-mainColor border-2 border-mainColor transition duration-300"
               >
                 <span className="font-medium tracking-wide uppercase whitespace-nowrap">Download CV</span>
-                <Download className="w-5 h-5" />
+                <Download className="w-5 h-5" aria-hidden="true"/>
               </a>
             </div>
           </div>

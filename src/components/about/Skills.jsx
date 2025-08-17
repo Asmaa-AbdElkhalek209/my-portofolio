@@ -19,7 +19,13 @@ function Skills() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 justify-center items-center">
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col items-center justify-center">
-            <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 flex justify-center items-center">
+            <div   
+              role="progressbar"
+              aria-label={`${skill.name} skill level`}
+              aria-valuenow={skill.percentage}
+              aria-valuemin={0}
+              aria-valuemax={100}
+              className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 flex justify-center items-center">
               <CircularProgressbar
                 value={skill.percentage}
                 text={`${skill.percentage}%`}
