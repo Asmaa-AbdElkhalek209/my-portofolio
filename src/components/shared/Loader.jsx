@@ -12,8 +12,8 @@ export default function Loader({ loading = true }) {
   return (
     loading && (
       <div
-        className="absolute left-0 right-0 bottom-0 top-0 w-screen h-screen 
-        flex justify-center items-center z-50 bg-lightGray"
+        className="absolute left-0 right-0 bottom-0 top-0 h-screen 
+        flex justify-center items-center z-[102] bg-lightGray"
         role="status" 
         aria-live="polite"
       >
