@@ -31,4 +31,4 @@ A fully responsive portfolio website built with React, showcasing my projects, s
 
 ## Live Demo
 
-[View live site here](https://my-portofolio-b4i3-virid.vercel.app/)
+[View live site here](https://my-portofolio-asmaa-abdelkhalek-chi.vercel.app/)
