@@ -1,20 +1,19 @@
-import hiralyzeImg from '../assets/Hiralyze.PNG';
-import daveroImg from '../assets/Davero.PNG';
-import ravenImg from '../assets/Raven.PNG';
+import hiralyzeImg from "../assets/Hiralyze.PNG";
+import daveroImg from "../assets/Davero.PNG";
+import ravenImg from "../assets/Raven.PNG";
 
-import bellaImg from '../assets/bella.webp';
-import blogImg from '../assets/blog.webp';
-import libraryImg from '../assets/library.webp';
-import movImg from '../assets/mov.webp';
-import bezelImg from '../assets/bezel.webp';
-import bakeryImg from '../assets/bakery.webp';
-import audioPlaylistImg from '../assets/AudioPlaylist.webp';
-import flexastayImg from '../assets/flexastay.webp';
-import hireslab from '../assets/hireslab.webp'; 
-import crudssysImg from '../assets/crudssys.webp';   
+import bellaImg from "../assets/bella.webp";
+import blogImg from "../assets/blog.webp";
+import libraryImg from "../assets/library.webp";
+import movImg from "../assets/mov.webp";
+import bezelImg from "../assets/bezel.webp";
+import bakeryImg from "../assets/bakery.webp";
+import audioPlaylistImg from "../assets/AudioPlaylist.webp";
+import flexastayImg from "../assets/flexastay.webp";
+import hireslab from "../assets/hireslab.webp";
+import crudssysImg from "../assets/crudssys.webp";
 
 export const Projects = [
-
   {
     id: 1,
     title: "Hiralyze",
@@ -23,17 +22,17 @@ export const Projects = [
     github: "https://github.com/Asmaa-AbdElkhalek209/HR-CRM-Dashboard",
     description:
       "A responsive HR & Recruitment CRM dashboard built using React.js, Tailwind CSS, and Vite with API integration and advanced UI interactions.",
-    technologies: ["React.js", "Tailwind CSS", "Vite", "API Integration"]
+    technologies: ["React.js", "Tailwind CSS", "Vite", "API Integration"],
   },
   {
     id: 2,
     title: "Davero Coffee",
     image: daveroImg,
-    link: "https://davero-coffee.vercel.app/",
+    link: "https://daverocaffe.com/",
     github: "https://github.com/Asmaa-AbdElkhalek209/Davero",
     description:
       "A brand introduction website for a new coffee brand in Egypt with modern UI, React.js setup, and a clean aesthetic.",
-    technologies: ["Tailwind CSS", "ESC6", "React.js", "Responsive Design"]
+    technologies: ["Tailwind CSS", "ESC6", "React.js", "Responsive Design"],
   },
 
   {
@@ -44,7 +43,12 @@ export const Projects = [
     github: "https://github.com/Asmaa-AbdElkhalek209/raven-website",
     description:
       "A modern introduction website for an AI SaaS company, built with React.js, animations, and an AI-focused design.",
-    technologies: ["Tailwind CSS", "JavaScript", "React.js", "Responsive Design"]
+    technologies: [
+      "Tailwind CSS",
+      "JavaScript",
+      "React.js",
+      "Responsive Design",
+    ],
   },
   {
     id: 4,
@@ -54,7 +58,7 @@ export const Projects = [
     github: "https://github.com/Asmaa-AbdElkhalek209/Bella-Furniture",
     description:
       "A stylish furniture website showcasing high-quality furniture items with a sleek and modern design.",
-    technologies: ["HTML", "SASS", "JavaScript"]
+    technologies: ["HTML", "SASS", "JavaScript"],
   },
   {
     id: 5,
@@ -64,17 +68,17 @@ export const Projects = [
     github: "https://github.com/Asmaa-AbdElkhalek209/simple-blog",
     description:
       "A simple blog platform with Firebase authentication and CRUD blog post features.",
-    technologies: ["React", "Firebase", "Tailwind CSS"]
+    technologies: ["React", "Firebase", "Tailwind CSS"],
   },
   {
     id: 6,
     title: "Flexastay",
     image: flexastayImg,
     link: "https://www.flexastay.com/",
-    github: "https://github.com/Asmaa-AbdElkhalek209", 
+    github: "https://github.com/Asmaa-AbdElkhalek209",
     description:
       "Accommodation booking platform built with Angular, TypeScript, Bootstrap, Tailwind, and API integrations.",
-    technologies: ["Angular", "TypeScript", "Bootstrap", "API"]
+    technologies: ["Angular", "TypeScript", "Bootstrap", "API"],
   },
   {
     id: 7,
@@ -84,7 +88,7 @@ export const Projects = [
     github: "https://github.com/MahmoudHussien7/hireslab",
     description:
       "A freelance hiring and recruitment platform built with Next.js and Tailwind CSS.",
-    technologies: ["Next.js", "Tailwind CSS", "APIs"]
+    technologies: ["Next.js", "Tailwind CSS", "APIs"],
   },
   {
     id: 8,
@@ -92,9 +96,8 @@ export const Projects = [
     image: libraryImg,
     link: "https://book-library-gold.vercel.app/",
     github: "https://github.com/Asmaa-AbdElkhalek209/Book-Library",
-    description:
-      "Interactive book library with full CRUD operations.",
-    technologies: ["HTML", "CSS", "JavaScript"]
+    description: "Interactive book library with full CRUD operations.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: 9,
@@ -104,7 +107,7 @@ export const Projects = [
     github: "https://github.com/Asmaa-AbdElkhalek209/Movies-Website",
     description:
       "Movie website using public movie API with categories like trending and top-rated.",
-    technologies: ["HTML", "CSS", "Bootstrap", "jQuery", "Movie API"]
+    technologies: ["HTML", "CSS", "Bootstrap", "jQuery", "Movie API"],
   },
   {
     id: 10,
@@ -112,9 +115,8 @@ export const Projects = [
     image: bezelImg,
     link: "https://bezel-bootstrap.vercel.app/",
     github: "https://github.com/Asmaa-AbdElkhalek209/bezel",
-    description:
-      "A responsive landing page built with Bootstrap.",
-    technologies: ["HTML5", "CSS3", "Bootstrap 5", "jQuery"]
+    description: "A responsive landing page built with Bootstrap.",
+    technologies: ["HTML5", "CSS3", "Bootstrap 5", "jQuery"],
   },
   {
     id: 11,
@@ -122,9 +124,8 @@ export const Projects = [
     image: bakeryImg,
     link: "https://bakery-chi-ten.vercel.app/",
     github: "https://github.com/Asmaa-AbdElkhalek209/Bakery",
-    description:
-      "A bakery website template with a visually appealing layout.",
-    technologies: ["HTML5", "SASS", "Responsive Design"]
+    description: "A bakery website template with a visually appealing layout.",
+    technologies: ["HTML5", "SASS", "Responsive Design"],
   },
   {
     id: 12,
@@ -132,18 +133,17 @@ export const Projects = [
     image: audioPlaylistImg,
     link: "https://simple-audio-playlist.vercel.app/",
     github: "https://github.com/Asmaa-AbdElkhalek209/simple-audio-playlist",
-    description:
-      "A clean audio playlist player with basic controls.",
-    technologies: ["HTML", "CSS", "JavaScript"]
+    description: "A clean audio playlist player with basic controls.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: 13,
     title: "CRUD System",
     image: crudssysImg,
-    link: "https://crud-system-alpha.vercel.app/", 
+    link: "https://crud-system-alpha.vercel.app/",
     github: "https://github.com/Asmaa-AbdElkhalek209/CRUD-System.git",
     description:
       "A product management system with CRUD operations stored in localStorage.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
 ];
